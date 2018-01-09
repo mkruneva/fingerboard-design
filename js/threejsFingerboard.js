@@ -29,8 +29,7 @@ function init() {
     //CREATE BACKGROUND PLANE 
     //createBackgroundPlane(backgroundMat);
 
-    //INVISIBLE CUBE
-    //var invisibleCube = createInvisibleBox(622, 154, 64);
+    // CUBES
     //var cubeAll = createInvisibleBox(540, 150, 60, 0xFFFFFF, 0.1);
     var cube1 = createInvisibleBox(90, 150, 60, 0xFF00FF, 0.5); cube1.position.setX(-180);
     var cube2 = createInvisibleBox(90, 150, 60, 0x00FFFF, 0.5); cube2.position.setX(-90);
